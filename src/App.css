@@ -1,0 +1,88 @@
+/* Gradient background for the navbar */
+.navbar-gradient {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+}
+
+/* Gradient background for the cards */
+.card-gradient {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  color: white;
+  border: none;
+}
+
+/* Custom font styling */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Custom card title styling */
+.card-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+/* Icon styling */
+.icon-style {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+/* Button styles */
+.btn-primary, .btn-secondary {
+  border: none;
+}
+
+.btn-primary {
+  background-color: #2575fc;
+}
+
+.btn-secondary {
+  background-color: #6a11cb;
+}
+
+/* Loading page animation */
+.loading-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #6a11cb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.loading-page h1 {
+  color: white;
+  font-size: 3rem;
+  animation: fadeOut 3s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+      visibility: hidden;
+  }
+}
+
+/* Footer styling */
+.footer {
+  background: #343a40;
+  color: white;
+  padding: 10px 0;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #f8f9fa;
+}
